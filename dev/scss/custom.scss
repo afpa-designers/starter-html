@@ -1,7 +1,27 @@
 /* Your code here */
+
+/* Variables */
+$sky-blue-color: #204174;
+
+
+
+
+
+/* Fin variables */
+
+
+
 header{
     z-index:999;
 }
 section{
     min-height:27vh;
+}
+.cube{
+    width: 70px;
+    height: 70px;
+    border: 3px;
+    border-radius: 7px;
+    background-color: $sky-blue-color;
+    color: #ffffff;
 }
